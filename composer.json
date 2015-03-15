@@ -1,0 +1,5 @@
+{
+    "require": {
+        "barracuda/copy": "~1.1"
+    }
+}

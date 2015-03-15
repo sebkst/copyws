@@ -1,0 +1,81 @@
+[
+    {
+        "name": "eher/oauth",
+        "version": "1.0.7",
+        "version_normalized": "1.0.7.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/EHER/OAuth.git",
+            "reference": "935c1f7709d1c1457de9e250d0e5f29cac06e507"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/EHER/OAuth/zipball/935c1f7709d1c1457de9e250d0e5f29cac06e507",
+            "reference": "935c1f7709d1c1457de9e250d0e5f29cac06e507",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "require-dev": {
+            "eher/phpunit": "1.6"
+        },
+        "time": "2012-12-13 23:48:10",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Eher\\OAuth": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "description": "OAuth 1 PHP Library"
+    },
+    {
+        "name": "barracuda/copy",
+        "version": "1.1.6",
+        "version_normalized": "1.1.6.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/copy-app/php-client-library.git",
+            "reference": "ef60bee6a57ad171258391f981dbd395ececa3e0"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/copy-app/php-client-library/zipball/ef60bee6a57ad171258391f981dbd395ececa3e0",
+            "reference": "ef60bee6a57ad171258391f981dbd395ececa3e0",
+            "shasum": ""
+        },
+        "require": {
+            "eher/oauth": "1.0.*",
+            "ext-curl": "*",
+            "ext-json": "*",
+            "php": ">=5.3.0"
+        },
+        "require-dev": {
+            "jakub-onderka/php-console-highlighter": "0.*",
+            "jakub-onderka/php-parallel-lint": "0.*",
+            "phpunit/phpunit": "~4.2"
+        },
+        "time": "2015-03-07 14:30:23",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Barracuda\\Copy\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "description": "Copy PHP library",
+        "homepage": "https://github.com/copy-app/php-client-library",
+        "keywords": [
+            "copy"
+        ]
+    }
+]
